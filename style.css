@@ -1,11 +1,11 @@
 html,body{margin:0;padding:0}
 body{font: 130%/1.3 TrebuchetMS,Arial,sans-serif;
-    text-align: left;background: #002366;padding-bottom:20px}
-a { color: #0066B3; background: inherit; text-decoration: none;}
-h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #036DA7 }
+    text-align: left;background: #CC0000;padding-bottom:20px}
+a { color: #615445; background: inherit; text-decoration: none;}
+h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #CC0000; }
 h2 { font: bold 1.1em Arial, Arial, Sans-Serif; padding: 0; margin: 0; }
 
-div#header{width:100%;overflow:hidden;background:#002366}
+div#header{width:100%;overflow:hidden;background:#CC0000}
 div#header h1,div#menu{width:770px;margin:0 auto;text-align:left}
 div#header h1{padding: 30px 0 20px;color: #fff}
 
@@ -32,8 +32,13 @@ div.section_gray {
 	padding: 1em;
 	margin-bottom: 1.2em;
 	text-align: justify;
-	color: #EEE;
+	color: #fff;
 }
+
+div.section_gray a{
+	color:#d3d3d3;  
+}
+
 
 div.colored {
     background: #eee;
